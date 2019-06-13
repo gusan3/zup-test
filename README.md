@@ -1,5 +1,3 @@
 ## ZUP-TEST Project
 
-## Available Scripts
-
-Execute *npm start* para inicializar a aplicação
+Execute  *npm install* e depois *npm start* para inicializar a aplicação

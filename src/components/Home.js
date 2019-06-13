@@ -15,9 +15,7 @@ class Home extends React.Component{
 
     }
     
-    componentDidMount(){
-    }
-
+    // função para filtrar as pessoas pelo nome
     filterData(name){
         let data =  Mock.filter((person) => {
             return person.name.toLowerCase().includes(name.toLowerCase())
