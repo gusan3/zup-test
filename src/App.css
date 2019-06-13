@@ -1,33 +1,123 @@
-.App {
-  text-align: center;
+html, 
+body {
+    height: 100%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+#root {
+  height: 100%
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.loginBackground {
+  background-color: rgb(77, 6, 96);
+  height: 100%;
+  vertical-align: middle;  
+}
+
+.card{
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column
+}
+
+.ageStyle{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.homeBackground {
+  background-color: rgb(77, 6, 96);
+  height: 100%;
+  vertical-align: middle;  
+}
+
+.container{
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: rgb(233, 233, 233);
+}
+.login{
+  height: 300px;
+  width: 500px;
+  margin-left: -250px;
+  margin-top: -150px;
+}
+
+.home{
+  height: 550px;
+  width: 500px;
+  margin-left: -250px;
+  margin-top: -275px;
+}
+
+.border{
+  border-radius: 10px;
+}
+
+.loginHeader{
+flex: 0.2;
+}
+
+.loginBody{
+background-color: rgb(233, 233, 233);
+flex: 1;
+padding: 35px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.searchBody{
+background-color: rgb(233, 233, 233);
+flex: 1;
+padding: 35px;
+display: flex;
+flex-direction: column;
+border-radius: 15px;
+overflow: scroll;
+padding-bottom: 0;
+margin-bottom: 75px;
+}
+
+.loginInput{
+  padding: 10px;
+  width: 400px;
+}
+
+.searchInput{
+  width: 99%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.loginButton{
+  background-color: blueviolet;
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
   color: white;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.exitButton{
+  border-radius: 5px;
+  background-color: lightcoral;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  bottom: 30px;
+  right: 35px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
 }

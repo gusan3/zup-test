@@ -1,0 +1,9 @@
+[
+    { "name": "Gustavo Almeida", "age": 23, "gender": "Male" },
+    { "name": "Carlos Trindade", "age": 44, "gender": "Male" },
+    { "name": "Vitor Santos", "age": 10, "gender": "Male" },
+    { "name": "Larissa Mendes", "age": 12, "gender": "Female" },
+    { "name": "Amanda Haddad", "age": 20, "gender": "Female" },
+    { "name": "Carl Seagan", "age": 67, "gender": "Male" },
+    { "name": "Gusmercindo Musk", "age": 7, "gender": "Unknown" }
+]
